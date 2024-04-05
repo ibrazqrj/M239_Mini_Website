@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +12,6 @@
 body {
     background-color: #f2f2f2;
     font-family: 'Atkinson Hyperlegible', sans-serifs;
-
 }
 
 .header {
@@ -25,10 +21,6 @@ body {
     background: url(images/background_new.jpg);
     background-size: cover;
     padding: 20px;
-}
-
-background.jpg {
-    opacity: 0.5;
 }
 
 .welcome {
@@ -42,8 +34,6 @@ background.jpg {
     max-height: 50px; 
     margin-left: auto; 
 }
-
-/* Second Part */
 
 .navigation {
     padding: 10px;
@@ -64,8 +54,6 @@ background.jpg {
     margin-right: 30px;
 }
 
-/* News Part */
-
 .news {
     margin-top: 30px;
 }
@@ -82,7 +70,7 @@ background.jpg {
     flex: 0 0 30%;
     padding: 10px;
     border: 1px solid #ccc;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Dunklerer Rand hinzufügen */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 .news-box img {
@@ -106,52 +94,53 @@ background.jpg {
     text-align: center;
 }
 
-/* Article Part */
 .article-box {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 50px;
-}
-
-.article-box img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px;
-}
-
-.article-box *{
-    margin: 0;
-    background-color: #f2f2f2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    max-width: 800px; /* Anpassen der maximalen Breite */
+    margin: 0 auto; /* Zentrieren der Artikelboxen */
+    justify-content: flex-start;
+    margin-left: 0;
 }
 
 .article-content {
     display: flex;
-    align-items: flex-start; /* Bilder oben ausrichten */
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Dunklerer Rand hinzufügen */
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 .article-content img {
-    max-width: 200px; /* Breite des Bildes anpassen */
+    max-width: 200px;
     height: auto;
-    margin-right: 10px; /* Abstand zwischen Bild und Text */
+    margin-right: 10px;
 }
 
 .article-content h3 {
-    margin: 30px ;
+    margin: 30px;
+    
 }
 
 .article-content p {
-    margin: 20px;
+    margin: 0px;
 }
 
-/* Footer */
+.MiniCooperSimg {
+    position: relative;
+    width: 100px; /* Beispielbreite */
+    height: auto; /* Die Höhe automatisch anpassen */
+    position: absolute; /* Absolute Positionierung */
+    top: 10px; /* Abstand vom oberen Rand */
+    right: 10px; /* Abstand vom rechten Rand */
+}
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 30px;
-    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
