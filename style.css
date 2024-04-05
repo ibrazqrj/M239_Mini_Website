@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/Hintgergund\ 1.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.welcome {
+    font-size: 200px;
+    margin-right: auto; 
+}
+
+.logo {
+    width: 1%;
+    height: auto;
+    margin-left: auto; 
+}
+
+/* Second Part */
+
+.navigation {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex; 
+    flex-direction: row; 
+    font-size: 30px;
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    margin-right: 70px;
+}
+
+/* News Part */
+
+.news {
+    margin-top: 30px;
+}
+
+.news-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.news-box {
+    flex: 0 0 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.news-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.news-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.news-box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+}
+
+/* Article Part */
+.article-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article-box img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+article-box p{
+    margin: 0;
+}
+
+.article-content {
+    display: flex;
+    align-items: flex-start; /* Bilder oben ausrichten */
+}
+
+.article-content img {
+    max-width: 200px; /* Breite des Bildes anpassen */
+    height: auto;
+    margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.article-content h3 {
+    margin: 0;
+}
+
+.article-content p {
+    margin: 0;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
