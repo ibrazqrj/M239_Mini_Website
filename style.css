@@ -128,12 +128,10 @@ body {
 }
 
 .MiniCooperSimg {
-    position: relative;
-    width: 100px; /* Beispielbreite */
-    height: auto; /* Die Höhe automatisch anpassen */
-    position: absolute; /* Absolute Positionierung */
-    top: 10px; /* Abstand vom oberen Rand */
-    right: 10px; /* Abstand vom rechten Rand */
+    width: 650px;
+    height: auto;;
+    margin-left: 1100px; /* Automatisches Auffüllen des verfügbaren Raums auf der linken Seite */
+    margin-top: -500px; /* Füge etwas Abstand oben hinzu */
 }
 
 footer {
