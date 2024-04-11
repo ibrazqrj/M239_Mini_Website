@@ -128,10 +128,10 @@ body {
 }
 
 .MiniCooperSimg {
-    width: 650px;
+    width: 550px;
     height: auto;;
-    margin-left: 1100px; /* Automatisches Auffüllen des verfügbaren Raums auf der linken Seite */
-    margin-top: -500px; /* Füge etwas Abstand oben hinzu */
+    margin-left: 900px; /* Automatisches Auffüllen des verfügbaren Raums auf der linken Seite */
+    margin-top: -5000px; /* Füge etwas Abstand oben hinzu */
 }
 
 footer {
